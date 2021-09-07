@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Intro component with sign up form | Ahmed Sameh</title>
+
+  <link rel="icon" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="/CSS/style.css">
+
+
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <div class="container">
+      
+      <!-- info -->
+      <div class="info">
+
+        <h1>
+          Learn to code <br> 
+           by watching others
+        </h1>
+
+        <p>
+          See how experienced developers solve problems in real-time.<br>
+          Watching scripted tutorials is great, but understanding how<br>
+          developers think is invaluable. 
+        </p>   
+      </div>
+
+      <!-- claim form -->
+      <div class="claim-rg">
+        <div class="try-pro"> <span style="font-weight: 600;">Try it free 7 days </span> then $20/mo. thereafter</div> 
+        <div class="claim-form">
+
+          <div class="input-conrol">
+            <input id="usrFname" type="text" placeholder="First Name"></input>
+            <img id="usrFname-error" src="/images/icon-error.svg" alt="">
+            <label id="usrFname-error-label">First Name cannot be empty</label>
+          </div>
+
+          <div class="input-conrol">
+            <input id="usrLname" type="text" placeholder="Last Name">
+            <img id="usrLname-error" src="/images/icon-error.svg" alt="">
+            <label  id="usrLname-error-label">Last Name cannot be empty</label>
+          </div>
+
+          <div class="input-conrol">
+            <input id="usrEmail" type="email" placeholder="Email Address">
+            <img id="usrEmail-error" src="/images/icon-error.svg" alt="">
+            <label  id="usrEmail-error-label">Looks like this is not an email</label>
+          </div>
+
+          <div class="input-conrol">
+            <input id="usrPass" type="password" placeholder="Password">
+            <img id="usrPass-error" src="/images/icon-error.svg" alt="">
+            <label  id="usrPass-error-label">Password Name cannot be empty</label>
+          </div>
+
+          <button id="submitBtn">Claim your free trial</button>
+
+          <div class="terms-and-services">
+            By clicking the button, you are agreeing to our <a href="#">Terms and Services</a> 
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </div>
+  
+<!-- Script file -->
+  <script src="JS/script.js"></script>
+</body>
+</html>
