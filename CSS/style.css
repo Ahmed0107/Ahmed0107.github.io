@@ -132,6 +132,7 @@
 .claim-form .terms-and-services {
   font-size: 10px;
   margin-top: 16px;
+  color: #dc6666;
 }
 
 @media only screen and (max-width: 763px) {
